@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px;
+    padding: 10px;
     background-color: rgb(255, 255, 255);
   }
   
@@ -33,19 +33,27 @@ body {
     cursor: pointer;
     font-size: 16px;
   }
-  
+
   nav {
     display: flex;
     justify-content: center;
     background-color: rgb(5, 136, 141, 0.4);
     padding: 10px 0;
+    margin-left: -50px;
   }
   
   .nav-link {
     color: white;
-    margin: 0 15px;
+    margin: 0 40px;
     text-decoration: none;
     font-size: 18px;
+  }
+
+  .nav-link:hover {
+    border: 2px solid #ffffff; 
+    padding: 5px; 
+    border-radius: 10px;
+    background-color: rgb(5, 136, 141);
   }
   
   .container {
@@ -141,3 +149,5 @@ body {
     #background-music::-webkit-media-controls-panel {
       background-color: rgba(5, 136, 141, 0.5);
     }
+  
+  
